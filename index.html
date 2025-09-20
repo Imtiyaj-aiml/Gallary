@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+            border: 5px solid violet;
+            border-radius: 30px;
+            margin: 10px;
+            flex-grow: 1;
+        }
+        .flexcontainer{
+            display: flex;
+            flex-wrap:wrap;
+        }
+        h1{
+            border: 1px solid red;
+            background-color: crimson;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallary</h1>
+    <div class="flexcontainer">
+        <img src="img1.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img3.jpg" alt="">
+        <img src="img4.jpg" alt="">
+        <img src="img5.jpg" alt="">
+        <img src="img6.jpg" alt="">
+        <img style="flex-grow: unset;" src="img7.jpg" alt="">
+    </div>
+
+</body>
+</html>
